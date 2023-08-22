@@ -1,9 +1,12 @@
+@use '../../styles/vars';
+
 .app {
-  width: 500px;
-  margin: 1em auto;
   text-align: center;
+  background-color: vars.$beige-color;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.app img {
-  max-width: 150px;
-}

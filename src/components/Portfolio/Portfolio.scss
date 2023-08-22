@@ -1,0 +1,8 @@
+@use '../../styles/vars';
+
+.portfolio{
+    width: 90vw;
+    height: 95vh;
+    border: 1px solid vars.$black-ash;
+    text-align: center;
+}
